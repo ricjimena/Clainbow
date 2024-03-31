@@ -111,3 +111,4 @@ VALUES
 ('Ropa Deportiva'),
 ('Bolsos y Carteras'),
 ('Ropa Interior');
+
