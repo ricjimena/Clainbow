@@ -1,0 +1,33 @@
+.verifyAcc-ppal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  background-color:#EFEBE8;
+
+  .anotherEmail {
+    padding-top: 70px;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+//mobile
+
+@media (max-width: 568px){
+  .verifyAcc-ppal{
+  display: flex;
+  text-align: center;
+   padding: 30px;
+   font-size: 0.8rem;
+   
+   img{ 
+      margin-top: 15px;
+      width: 110px;
+   }
+  }
+}

@@ -1,0 +1,50 @@
+.shopping-div {
+  background-color: rgba(128, 128, 128, 0.215);
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.shoppingQuantity {
+  font-size: 1.5rem;
+}
+
+.description {
+  background-color: rgba(128, 128, 128, 0.418);
+  box-shadow: 2px 2px 5px gray;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-style: italic;
+}
+
+@media (max-width: 991px) {
+  .shopping-div {
+    width: 400px;
+    height: 150px;
+    font-size: 1rem;
+
+    .description{
+      display: none;
+    }
+
+    .img-cont {
+      width: 100px;
+    }
+  }
+  .article{
+    h3{  
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    h5{
+      font-size: 1.2rem;
+    }
+    .shoppingQuantity{
+      font-size: 1rem;
+    }
+    .priced{
+      font-size: 1rem;
+    }
+  }
+}

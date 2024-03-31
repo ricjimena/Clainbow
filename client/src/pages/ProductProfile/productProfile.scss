@@ -1,0 +1,163 @@
+  col {
+  margin: 0;
+  padding: 0;
+}
+.cont-bg {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.img-user {
+  p {
+    margin: 0;
+  }
+  img {
+    border-radius: 50%;
+    width: 70px;
+  }
+}
+.cont-right-col {
+  padding: 50px;
+
+  hr {
+    color: #ffc109;
+  }
+}
+
+.price{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #B88D19;
+}
+
+.heart-icon {
+  font-size: 1.3rem;
+}
+
+.product-bg {
+  background-color: #d7d4d2;
+  padding: 10vh 15vw;
+}
+.cajita-negra {
+  padding: 10px;
+  background-color: #181717;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  margin-left: -5px;
+  text-align: center;
+
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner{
+  height: 100%;
+
+}
+
+
+.left-col {
+  background-color: rgb(126, 126, 126);
+  margin: 0;
+  padding: 0;
+  img{
+   
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
+
+.right-col {
+  background-color: #232323;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+.top-cont {
+  display: flex;
+  gap: 20px;
+}
+
+.user-pic {
+  width: 70px;
+  height: 70px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+
+.title-price {
+  padding-top: 20px;
+}
+.little-box {
+  background-color: #191919;
+  margin: 0 5px;
+  width: 70px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+}
+.box-container {
+  display: flex;
+}
+
+.contador {
+  margin: 0 10px;
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.article-name {
+  margin-bottom: 40px;
+}
+.article-price {
+  margin-bottom: 20px;
+}
+.article-line {
+  color: #ffc109;
+  height: 3px;
+  width: 110px;
+  margin-top: 0;
+}
+.bold-text {
+  font-weight: bold;
+}
+.errorMessage {
+  color: red;
+}
+.down-but {
+  width: 400px;
+  border-radius: 30px;
+}
+
+.description_oneArticle {
+  font-style: italic;
+  margin: -20px 0;
+}
+
+//Mobile
+@media (max-width: 568px) {
+
+  .cont-bg{
+    flex-wrap: wrap;
+  }
+  .product-bg {
+    padding: 1vh 15vw;
+  }
+}

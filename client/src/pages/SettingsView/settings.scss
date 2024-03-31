@@ -1,0 +1,101 @@
+.settings-ppal {
+  padding-top: 70px;
+}
+
+.userProfile-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #efebe8;
+  min-height: calc(100vh - 88px);
+  border-left: 1px solid black;
+}
+
+.sectionProfile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+ .testImg {
+  display: flex;
+  align-items: center;
+
+  .inputImagen{
+    width: 35%;
+  }
+
+} 
+
+.profile-top {
+  display: flex;
+  padding: 20px;
+  margin-left: 120px;
+  
+
+  .profile-top-right {
+    margin: 40px 40px;
+  }
+}
+.profilePic {
+  border-radius: 50%;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.editProfile-form {
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  align-self: center;
+
+  div {
+    display: flex;
+    margin-right: 60px;
+  }
+
+  Label {
+    color: #565554;
+    font-weight: bold;
+  }
+}
+
+.addImgicon {
+  scale: 2.5;
+  position: absolute;
+  top: 40%;
+  right: 52%;
+  background-color: #b88e19e1;
+  border-radius: 50%;
+}
+
+// media queries
+@media (width < 768px){
+  .sectionProfile {
+    padding-top: 0;
+    padding-bottom: 10px;
+    
+  }
+  .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+  }
+}
+
+@media (width < 569px){
+  .settings-ppal {
+    padding-top: 10px;
+  }
+}

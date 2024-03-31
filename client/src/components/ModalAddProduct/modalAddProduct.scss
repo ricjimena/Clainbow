@@ -1,0 +1,30 @@
+/* Quitar flechitas del tipo number */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+.addArticleForm {
+    display: flex;
+    flex-direction: column;
+    Form.Group {
+        margin-bottom: -10px !important;
+    };
+}
+
+.botonaco {
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    background-color: #b88d19;
+    color: white;
+  }
+
+@media (width <= 500px){
+    .colour-price {
+        display: flex;
+        gap: 5px;
+    }
+}

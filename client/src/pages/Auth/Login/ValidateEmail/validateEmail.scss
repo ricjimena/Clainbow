@@ -1,0 +1,42 @@
+.lateralvalidate {
+  position: relative;
+  margin-left: 0;
+  width: 35%;
+  height: 100vh;
+  object-fit: cover;
+  background-image: url("../../../public/assets/images/verifyEmail.png");
+  background-size: cover;
+}
+.forgotPass {
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+  margin-top: 60px;
+}
+
+//Desktop
+@media (max-width: 768px) {
+  .lateralvalidate {
+    display: none;
+  }
+}
+
+//Mobile
+@media (max-width: 576px) {
+  .forgotPass {
+    margin-top: 0;
+    h3{
+      font-size: 1.2rem;
+      margin-right: 120px;
+      
+      
+    }
+    .instructionsPass {
+      font-size: 0.9rem;
+      padding-top: 10px;
+    }
+  }
+  .reset-but{
+    margin-bottom: 70px;
+  }
+}

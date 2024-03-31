@@ -1,0 +1,25 @@
+.adminUsers-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEBE8;
+  min-height: calc(100vh - 88px);
+  border-left: 1px solid black;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+  
+  Table {
+    margin: 10px;
+    width: 95%;
+
+    // th, td {
+    //   width: 100%;
+    // }
+  }
+  
+  img {
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+  }
+}
+

@@ -1,0 +1,131 @@
+.global{
+  background-color:#EFEBE8;
+  align-items: center;
+  justify-content: center;
+  //min-height: calc(100dvh - 87.88px);
+  padding: 5vh 0vw;
+  padding-top: 150px;    
+}
+
+.global-2{
+  background-color:#EFEBE8;
+  min-height:calc(100dvh - 427.58px) ;
+
+  
+
+}
+
+
+
+ .barra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+} 
+
+.buscadorMobile{
+  background-color: white;
+  padding: 15px;
+  border-radius: 30px;
+
+  input{
+    border: 1px solid transparent;
+  }
+}
+
+.barraNav{
+//margin-top: 5vh;
+  //position: fixed;
+ border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  background-color: white;
+  padding: 5px;
+  box-shadow: rgba(107, 107, 107, 0.2) 0px 7px 29px 0px;
+}
+
+.desplegable{
+  button{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+}
+
+.input-cont{
+  position: relative;  
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.search-input {
+  width: 100%; 
+}
+
+.lupadiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #B88D19;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/images/lupa.png");
+  background-size: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.lupadivMobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #B88D19;
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/images/lupa.png");
+  background-size: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.pointsMobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color:transparent;
+  width: 40px;
+  height: 30px;
+  background-image: url("../assets/images/puntos.png");
+  background-size: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+// Media queries
+@media (width <= 568px) {
+  .global {
+    padding-top: 15px;
+    
+  }
+  .global-2{
+    background-color:#EFEBE8;
+    min-height:calc(100dvh - 173.88px) ;
+    margin-bottom: 70px;
+  }
+}

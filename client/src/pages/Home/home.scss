@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+.homeSection {
+  padding: 2vw 10vh;
+  height: 100vh;
+  background-image: url(/assets/images/landing_image.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+
+  .homeInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    > div {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 10px;
+      margin-bottom: 100px;
+
+      h1 {
+        font-size: 6rem;
+        font-family: "Italiana";
+        text-wrap: pretty;
+      }
+      p {
+        font-size: 1.3rem;
+        text-wrap: pretty;
+      }
+
+      button {
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 30px;
+        border: 1px solid transparent;
+        background-color: #b88d19;
+        color: white;
+      }
+      button:hover {
+        border: 2px solid white;
+      }
+    }
+  }
+}
+
+@media (width < 460px) {
+  .homeSection {
+    padding: 0;
+
+   
+  
+    .homeInfo {
+      
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+      > div {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+  
+        h1 {
+          font-size: 4.5rem;
+          font-family: "Italiana";
+          text-wrap: pretty;
+        }
+        p {
+          font-size: 1.2rem;
+          text-wrap: pretty;
+        }
+  
+        button {
+          font-weight: 500;
+          padding: 10px 25px;
+          border-radius: 30px;
+          border: 1px solid transparent;
+          background-color: #b88d19;
+          color: white;
+        }
+        button:hover {
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+  
+}

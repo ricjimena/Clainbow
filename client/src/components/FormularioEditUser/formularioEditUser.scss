@@ -1,0 +1,103 @@
+/* Quitar flechitas del tipo number */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+
+.userProfile-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEBE8;
+  min-height: calc(100vh - 88px);
+  border-left: 1px solid black;
+  padding: 40px 0 80px 0;
+
+  
+}
+
+.profile-top {
+  display: flex;
+  padding: 20px;
+  position: relative;
+  margin-left: 120px;
+
+
+  .profile-top-right {
+    margin: 40px 40px;
+
+   
+  }
+  
+} 
+.profilePic {
+  border-radius: 50%;
+}
+
+.editProfile-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  align-self: center;
+
+  div {
+    display: flex;
+    margin-right: 60px;
+  }
+
+  Label {
+    color: #565554;
+    font-weight: bold;
+  }
+}
+
+.inputImagen {
+  align-self: self-start;
+  margin-top: 35px;
+  
+  Label {
+    width: 200px;
+  }
+}
+
+.addImgIcon {
+  font-size: 2rem;
+  
+
+}
+
+// media queries 
+
+@media (width < 1250px){
+  .editProfile-form {
+
+    div {
+      flex-direction: column;
+      margin-right: 0 !important;
+    }
+  }
+
+  .inputImagen {
+    margin-top: 0;
+  }
+}
+
+
+@media (width < 768px) {
+  .profile-top {
+    flex-direction: column;
+    margin-left: 0 !important;   
+  } 
+
+  .editProfile-form {
+
+    margin-top: -40px;
+  }
+
+
+}
+

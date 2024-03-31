@@ -1,0 +1,69 @@
+.footerSection{
+  background-color: #242424;
+  padding: 4vh 4vw;
+  color: white;
+  padding-top: 25px;
+
+  .box{
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.415);
+
+    .info1{
+      h2{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+
+      }
+      img{
+       width:  50px;
+       margin-bottom: 15px;
+      }
+      p{
+        font-size: 0.9rem;
+        margin: 0;
+        margin: 1px 0;
+                color: rgba(255, 255, 255, 0.415) ;
+
+      }
+
+      h3{
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+
+      }
+      span{
+        margin: 0;
+      }
+
+      hr{
+        background-color: white;
+        margin: 0;
+        margin: 8px 0;
+        color: white;
+        width: 180px;
+        height: 1px;
+        opacity: 50%;
+      }
+      button{
+        font-size: 0.9rem;
+        padding: 0px 12px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .chiquita{
+    p{
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (width < 576px) {
+  
+  .footerSection {
+    display: none !important;
+  }
+}

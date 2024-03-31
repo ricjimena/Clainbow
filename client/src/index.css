@@ -1,0 +1,17 @@
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* para corregir el scroll horizontal */
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
