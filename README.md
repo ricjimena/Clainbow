@@ -1,19 +1,42 @@
 # Clainbow Project
-This project consists of a social network with themes: forex, trading, crypto, etc. Users can create posts and predictions, these predictions can be set as wrong, right or on hold. Users can follow other users and filter them by the number of correct predictions for example. Users can use the tradingView graphic and play with it.
-Prerequisites
-Have Node installed
-Have React installed
-Have MySQL installed
-Installation
-Clone this repository to your local machine:
-git clone https://github.com/Juanjopalma/Ascendio.git
-Open one terminal and move to the application folder in :
+
+This project consists of a social network based on digital clothes through metaverse. Users can create articles and sell them.
+
+Prerequisites:
+* Have Node installed
+* Have React installed
+* Have MySQL installed
+
+Installation:
+
+1. Clone this repository to your local machine:
+git clone https://github.com/ricjimena/Clainbow.git
+
+2. Open one terminal and move to the application folder in :
 cd client
-Open other terminal and move to the application folder in :
+
+3. Open other terminal and move to the application folder in :
 cd server
-Install the dependenciesv in each console:
+
+4. Install the dependenciesv in each console:
 npm i
-Start the application in each console:
+
+5. Start the application in each console:
 npm run dev
-Control + click on the terminal message like this (the port may be different):
+
+6. Control + click on the terminal message like this (the port may be different):
 Local: http://localhost:5173/
+
+Videos:
+
+* Node installation
+
+https://www.youtube.com/watch?v=ipmhBYqIP44&ab_channel=UskoKruM2010
+
+* MySQL installation
+
+https://www.youtube.com/watch?v=KvC7iM6O4ik&ab_channel=EdTicsAcademy
+
+* React installation
+
+https://www.youtube.com/watch?v=dhvY24NjZZY&ab_channel=angeloDev
