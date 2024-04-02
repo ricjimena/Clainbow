@@ -40,3 +40,8 @@ https://www.youtube.com/watch?v=KvC7iM6O4ik&ab_channel=EdTicsAcademy
 * React installation
 
 https://www.youtube.com/watch?v=dhvY24NjZZY&ab_channel=angeloDev
+
+* Database installation
+  - Open MySQL
+  - File -> Open SQL Script
+  - Select Clainbow.sql
