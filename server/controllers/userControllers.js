@@ -45,7 +45,7 @@ class UserControllers {
     
     try {
       // descodificar el token para poder extraer después el user_id
-      const tokenDescodificado = jwt.verify(token, process.env.SECRET);
+      const tokenDescodificado = jwt.verify(token, 'clainbow');
       
       // acceder al user_id del token descodificado
       const user_id = tokenDescodificado.id;
@@ -150,7 +150,7 @@ class UserControllers {
                   id: result[0].user_id,
                 },
               },
-              process.env.SECRET,
+              'clainbow',
               { expiresIn: "5d" }
             );
             let sql2 = `select article_id from user_likes_article where user_id = ${result[0].user_id}`;

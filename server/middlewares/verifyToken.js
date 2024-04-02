@@ -12,7 +12,7 @@ const verify = (req, res, next) =>{
 
       let token = token_completo.split(" ")[1];
 
-    jwt.verify(token, process.env.SECRET, (err, result)=>{
+    jwt.verify(token, 'clainbow', (err, result)=>{
         if(err){
             console.log(err);
             res.status(401).json("Access denied")

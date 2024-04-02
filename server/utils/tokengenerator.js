@@ -5,7 +5,7 @@ const genToken = (id) => {
   return jwt.sign({
     id
   }, 
-  process.env.SECRET)
+  'clainbow')
 }
 
 module.exports = genToken;
